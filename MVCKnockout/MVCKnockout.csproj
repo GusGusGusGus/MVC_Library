@@ -152,6 +152,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\AuthorsController.cs" />
+    <Compile Include="Controllers\BooksController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="DAL\BookContext.cs" />
     <Compile Include="DAL\BookInitializer.cs" />
@@ -192,6 +193,7 @@
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\ViewModels\AuthorFormViewModel.js" />
+    <Content Include="Scripts\ViewModels\AuthorIndexViewModel.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -208,11 +210,15 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\Basic.cshtml" />
     <Content Include="Views\Home\Advanced.cshtml" />
-    <Content Include="Views\Authors\Create.cshtml" />
+    <Content Include="Views\Authors\Form.cshtml" />
     <Content Include="Views\Authors\Delete.cshtml" />
     <Content Include="Views\Authors\Details.cshtml" />
-    <Content Include="Views\Authors\Edit.cshtml" />
     <Content Include="Views\Authors\Index.cshtml" />
+    <Content Include="Views\Books\Create.cshtml" />
+    <Content Include="Views\Books\Delete.cshtml" />
+    <Content Include="Views\Books\Details.cshtml" />
+    <Content Include="Views\Books\Edit.cshtml" />
+    <Content Include="Views\Books\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
